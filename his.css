@@ -1,20 +1,10 @@
 @charset "UTF-8";
-/*--------------------------------------------
-
-Name:     Timeline
-Created:  13/02/15
-Author:   Raúl Hernández <raulghm@gmail.com>
-Github:   raulghm
-
-----------------------------------------------*/
 .cf:before, .Timeline-item-top:before, .Timeline-item:before,
 .cf:after,
 .Timeline-item-top:after,
 .Timeline-item:after {
   content: " ";
-  /* 1 */
   display: table;
-  /* 2 */
 }
 
 P {font-size: 15px;}
@@ -22,11 +12,6 @@ P {font-size: 15px;}
 .cf:after, .Timeline-item-top:after, .Timeline-item:after {
   clear: both;
 }
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 .cf, .Timeline-item-top, .Timeline-item {
   *zoom: 1;
 }
@@ -38,10 +23,8 @@ body {
 .title {
   text-align: center;
   margin-bottom: 60px;
-  color: #777;
-}
-.title h2, .title h4 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #3D2400;
+	font-family: "source-sans-pro"
 }
 
 .Timeline {
@@ -56,12 +39,11 @@ body {
   left: 50%;
   margin-left: -25px;
   padding-left: 20px;
-  cursor: pointer;
 }
 .Timeline-line:after {
   content: "";
   position: absolute;
-  border-left: 3px solid #dedede;
+  border-left: 3px solid #266266;
   height: 100%;
 }
 .Timeline-line.is-active .Timeline-line-menu {
@@ -80,7 +62,11 @@ body {
   position: relative;
   margin-bottom: 40px;
   width: 345px;
-  border: 1px solid #dedede;
+  border: 2px solid #266277;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   transition: all 0.3s ease;
   margin: -10px 0 -20px;
 }
@@ -91,23 +77,11 @@ body {
   right: -78px;
   border-radius: 50%;
   transform: translateY(-50%);
-  background-color: #999;
+  background-color: #266277;
   width: 12px;
   height: 12px;
 }
-.Timeline-item-inner:after {
-  content: "";
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  right: -9px;
-  top: 50%;
-  border-bottom: 8px solid transparent;
-  border-left: 8px solid #dedede;
-  border-top: 8px solid transparent;
-  transform: translateY(-50%);
-  transition: all 0.2s ease;
-}
+
 .Timeline-item:hover {
   -moz-user-select: none;
    -ms-user-select: none;
@@ -115,10 +89,10 @@ body {
   -webkit-user-select: none;
 }
 .Timeline-item:hover:after {
-  border-left-color: #999;
+  border-left-color: #266277;
 }
 .Timeline-item:hover .Timeline-item-inner {
-  border-color: #999;
+  border-color: #F4F4F4;
 }
 .Timeline-item:hover .Timeline-item-inner:after {
   height: 0;
@@ -132,7 +106,7 @@ body {
 }
 .Timeline-item:nth-child(odd) {
   margin-left: 50%;
-  padding-left: 70px;
+  padding-left: 68px;
   width: 50%;
 }
 .Timeline-item:nth-child(odd):hover .Timeline-item-inner:after {
@@ -150,7 +124,7 @@ body {
   height: 0;
   width: 0;
   border-bottom: 8px solid transparent;
-  border-right: 8px solid #c9c9c9;
+  border-right: 8px solid #930406;
   border-top: 8px solid transparent;
   border-left: 0;
   right: auto;
@@ -175,15 +149,12 @@ body {
   font-weight: 200;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-.Timeline-item--quote .Timeline-item-content {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+
 .Timeline-item--image .Timeline-item-content-body img {
   max-width: 100%;
   margin-top: 5px;
 }
 .Timeline-item-top {
-  background-color: #f8f8f8;
   padding: 10px 15px;
 }
 .Timeline-item-top:hover {
@@ -205,7 +176,6 @@ body {
   margin-left: 10px;
 }
 .Timeline-item-content {
-  background-color: #fff;
   padding: 10px 20px 20px;
   text-align: left;
 }
