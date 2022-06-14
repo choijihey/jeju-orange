@@ -11,47 +11,88 @@ body {background-image: url("background.png");
 	  background-repeat: repeat;
       text-align: center;}
 
-    #container {width: 1024px;
+#container {width: 1024px;
                 height: auto;
                 margin: auto;}
 
-       #bar {width: 1000px;
-          height: 100px;
-	      background-image: url("man_ai.png");
-		  background-size: contain;
-		  background-repeat: no-repeat;
-	     
+#bar {width: 1000px;
+      height: 100px;
 	  }
+	   
+#bar1 {width: auto;
+	   height: 100px; 
+	   background-image: url("man_ai.png");
+	   background-size: contain;
+	   background-repeat: no-repeat;
+	   float:left;
+	    }
+	   
+#bar2 {width: auto;
+	   height: 100px; 
+	   background-image: url("man_ai.png");
+	   background-size: contain;
+	   background-repeat: no-repeat;
+	   float:right;
+	   margin-left: -50px;
+	    }
+	   
+#bar3 {width: auto;
+	   height: 100px; 
+	   background-image: url("man_ai.png");
+	   background-size: contain;
+	   background-repeat: no-repeat;
+	   float:right;
+	   margin-left: -150px;
 
-    #history {text-align: left;
-                             width: 200px;
-                             height:30px;
-                             float: left;
-	  margin-top: 50px;
-	  margin-left: 45px;}
+	    }
+	   
+#today {text-align: left;
+        width: 200px;
+        height:30px;
+        float: left;
+	    margin-top: 50px;
+	    margin-left: -115px;
+	    font-family: "source-sans-pro";
+	    color:aliceblue;
+        font-size: 20px;
+	    }
 
-    #today, #year {text-align: center;
-                   width: 200px;
-                   height:30px;
-                   float: right;}
+ #history {text-align: center;
+           width: 200px;
+           height:30px;
+           float: right;
+	   	   margin-top: 50px;
+	       font-family: "source-sans-pro";
+	       color:aliceblue;
+           font-size: 20px;
+	       margin-right: -125px; }
+	   
+ #year {text-align: center;
+        width: 200px;
+        height:30px;
+        float: right;
+	   	margin-top: 50px;
+	    font-family: "source-sans-pro";
+	    color:aliceblue;
+        font-size: 20px;
+	    margin-right: -25px;}
 	  
-   #clearbox {clear:both;
-              content: ""}
+#clearbox {clear:both;
+           content: ""}
 
-   #orange {text-align: left;
+#orange {text-align: left;
             float:left;}
 
 
-   #mandarin {text-align: right;
+#mandarin {text-align: right;
               float: right;}
 	  
-	p{ color: white;
-	   }
+p{color: white;}
 	  	  
-    h1 {font-size: 35px;
-        color: orange;}
+h1 {font-size: 35px;
+    color: orange;}
 
-  </style>
+</style>
 </head>
 	
 <body>
@@ -61,19 +102,29 @@ body {background-image: url("background.png");
 
 <br><br>
 <div id="bar">
-  <div id="history">
-	  <div class="icon">
-   <a href="index.html">오늘의 귤 </a>
-		  </div>
-  </div>
-
+	<div id="bar1">
+		<a href="index.html"><img src="man_ai.png" width="150" alt="man"></a></div>
   <div id="today">
-	  <a href="history.html">귤의 역사</a>
+   오늘의 귤 
   </div>
-
+	
+   <div id="bar2">
+	   <a href="history.html">
+	   <img src="man_ai.png" width="150" alt="man">
+	   </a></div>
+  <div id="history">
+	  귤의 역사
+  </div>
+	
+ <div id="bar3">
+	 <a href="year.html">
+		 <img src="man_ai.png" width="150" alt="man">
+		 </a></div>
   <div id="year">
-	  <a href="year.html">출하기간</a>
-  </div>
+	  출하기간
+	 </div>
+	</div>
+
 
   <div id="clearbox">
 
@@ -93,9 +144,7 @@ body {background-image: url("background.png");
   </p>
   </div>
 </div>
-<br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-	<div class="img_box"><img src="출하표.png" style="visibility:hidden;image-rendering: -webkit-optimize-contrast;" alt="" ></div></div>
-	<img src="출하표.png" alt="img12">
+	<div class="img_box"></div>
+	<img src="img3.png" alt="img12">
 	</body>
 </html>

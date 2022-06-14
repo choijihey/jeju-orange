@@ -44,7 +44,7 @@ body {
   content: "";
   position: absolute;
   border-left: 3px solid #266266;
-  height: 100%;
+  height: 93.5%;
 }
 .Timeline-line.is-active .Timeline-line-menu {
   opacity: 1;
