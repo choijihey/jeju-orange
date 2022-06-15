@@ -104,7 +104,7 @@ img {
   position: relative;
   padding-top: 50px;
   overflow: hidden;
-  width: auto;
+  width: 1024px;
 }
 
 .panel {
