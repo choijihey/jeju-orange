@@ -1,36 +1,15 @@
 @charset "UTF-8";  
 * {
   box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 }
 
-body {background-image: url("background.png");
-      background-repeat: repeat;
-      width: 1024px;}
-
-header {width: auto; 
-        height: 370px;}
-
-article {background-image: url("pado.png");
-      background-repeat: repeat-x;
-	  background-position: top center;
-	  width: 1024px; 
-      height: 500px;
-	  z-index: auto;
-}
-footer {
-	background-position: top center;
-	width: 1024px;
-	height: 600px;
-}
 #water {float:right;
 	    margin-top: -20px;
         margin-right:630px;
 }
-   #container {text-align: center;
-               width: 1024px;
-               height: auto;
-               margin-top:70px;
-               font-size: 15px;}
+
    #logo {
 	float: left;
 	margin-left: 700px;
@@ -125,7 +104,7 @@ img {
   position: relative;
   padding-top: 50px;
   overflow: hidden;
-  width: 1024px;
+  width: auto;
 }
 
 .panel {
