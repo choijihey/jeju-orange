@@ -18,7 +18,8 @@ body {padding: 40px;
               float: right;
             margin-right:35px;}
 
-p{color: white;}
+p{color: white;
+  font-family: sans-serif;}
 	  	  
 h1 {font-size: 35px;
     color: orange;}
