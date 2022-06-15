@@ -1,23 +1,25 @@
+@charset "UTF-8";  
 * {
   box-sizing: border-box;
 }
 
 body {background-image: url("background.png");
-      background-repeat: repeat;}
+      background-repeat: repeat;
+      width: 1024px;}
 
-header {width: 1500px; 
+header {width: auto; 
         height: 370px;}
 
 article {background-image: url("pado.png");
       background-repeat: repeat-x;
 	  background-position: top center;
-	  width: 1500px; 
+	  width: 1024px; 
       height: 500px;
 	  z-index: auto;
 }
 footer {
 	background-position: top center;
-	width: 1500px;
+	width: 1024px;
 	height: 600px;
 }
 #water {float:right;
@@ -25,7 +27,7 @@ footer {
         margin-right:630px;
 }
    #container {text-align: center;
-               width: 1500px;
+               width: 1024px;
                height: auto;
                margin-top:70px;
                font-size: 15px;}
@@ -47,19 +49,19 @@ footer {
 	   margin-right: 200px;
 }
    #orange  {float: left;
-	         margin-left: 950px;
+	         margin-left: 600px;
              margin-top:-130px;}
 
    #orange2  {float: left;
-             margin-left: 100px;
+             margin-left: 50px;
              margin-top:-200px;}
 
    #orange3 {float: left;
-             margin-left: 630px;}
+             margin-left: 300px;}
 
     #img1     {float:left;
               padding-top: 120px;
-              margin-left: 120px;
+              margin-left: 200px;
 }
 
     #box1 {float:left;
@@ -123,6 +125,7 @@ img {
   position: relative;
   padding-top: 50px;
   overflow: hidden;
+  width: 1024px;
 }
 
 .panel {

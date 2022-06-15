@@ -1,3 +1,20 @@
 @charset "UTF-8";  
 .img_box {align-content: center;
-          margin-top: -1000px;}
+          margin-top: -1200px;}
+
+body {padding: 40px;}
+
+#clearbox {clear:left;
+           content: ""}
+
+#orange1 {text-align: left;
+            float:left;}
+
+
+#mandarin {text-align: right;
+              float: right;}
+
+p{color: white;}
+	  	  
+h1 {font-size: 35px;
+    color: orange;}
