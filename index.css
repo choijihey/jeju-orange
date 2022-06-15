@@ -21,22 +21,23 @@
 
    #sign {float: right;
           margin-top:-250px;
-          margin-right: 1150px;}
+          margin-right: 1100px;}
    
 #umb { float:right;
 	   margin-top: -400px;
 	   margin-right: 200px;
 }
    #orange  {float: left;
-	         margin-left: 600px;
+	         margin-left: 950px;
              margin-top:-130px;}
 
    #orange2  {float: left;
-             margin-left: 50px;
-             margin-top:-200px;}
+             margin-left: 200px;
+             margin-top:-190px;}
 
    #orange3 {float: left;
-             margin-left: 300px;}
+             margin-left: -180px;
+             margin-top: 77px;}
 
     #img1     {float:left;
               padding-top: 120px;
