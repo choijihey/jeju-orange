@@ -2,7 +2,8 @@
 .img_box {align-content: center;
           margin-top: -1200px;}
 
-body {padding: 40px;}
+body {padding: 40px;
+      width: 1024px;}
 
 #clearbox {clear:left;
            content: ""}
